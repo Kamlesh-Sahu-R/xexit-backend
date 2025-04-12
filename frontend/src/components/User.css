@@ -1,0 +1,44 @@
+/* styles.css */
+.welcome {
+    margin-bottom: 30px;
+    color: blue;
+    font-size: large;
+}
+  
+.resignation {
+    margin-bottom: 15px;
+    color: #333;
+    font-size: medium;
+}
+  
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+  
+button:hover {
+    background-color: #0056b3;
+}
+
+input{
+    width: 150px;
+    height: 36px;
+}
+
+form{
+    display: flex;
+    justify-content: space-between;
+}
+  
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #555;
+}
+  
